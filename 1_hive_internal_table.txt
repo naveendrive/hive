@@ -1,6 +1,6 @@
 -- INTERNAL OR MANAGED TABLE
 -- Use the below command to create INTERNAL table
--- Download 'SalesJan2009.csv'
+-- Download 'SalesJan2009.csv' from data folder or use your own file to test.
 
 CREATE TABLE sales_table (Transaction_date String,
 	Product String,
