@@ -1,6 +1,6 @@
 -- Create table with timestamp
-CREATE TABLE time_sample(id Int,name 
-	String,
+CREATE TABLE time_sample(id Int,
+	name String,
 	doj timestamp) 
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ',';
