@@ -41,17 +41,17 @@ DROP TABLE sales_table;
 -- To store the data into PARQUET format, create table in the above mentioned procedure and load the data into parquet file using the below procedure
 
 CREATE TABLE sales_parquet (Transaction_date String,
-Product String,
-Price Double,
-Payment_Type String,
-Name String,
-City String,
-State String,
-Country String,
-Account_Created String,
-Last_Login String,
-Latitude Double,
-Longitude Double)
+	Product String,
+	Price Double,
+	Payment_Type String,
+	Name String,
+	City String,
+	State String,
+	Country String,
+	Account_Created String,
+	Last_Login String,
+	Latitude Double,
+	Longitude Double)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS parquet;
