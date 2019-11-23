@@ -6,16 +6,16 @@
 
 
 CREATE TABLE sales_static_part (Transaction_date String,
-Product String,
-Price Double,
-Name String,
-City String,
-State String,
-Country String,
-Account_Created String,
-Last_Login String,
-Latitude Double,
-Longitude Double)
+	Product String,
+	Price Double,
+	Name String,
+	City String,
+	State String,
+	Country String,
+	Account_Created String,
+	Last_Login String,
+	Latitude Double,
+	Longitude Double)
 PARTITIONED BY (Payment_Type String);
 
 
